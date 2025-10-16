@@ -39,22 +39,30 @@ class MyApp extends StatelessWidget {
                   fontSize: 30.0,
                   color: Colors.teal.shade100,
                   fontWeight: FontWeight.bold,
-
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+                width: 250.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
                 ),
               ),
               Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   title: Text('+34 619 45 51 68'),
                   leading: Icon(Icons.phone),
-                  iconColor:Colors.teal,
+                  iconColor: Colors.teal,
                   titleAlignment: ListTileTitleAlignment.center,
                 ),
               ),
               Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   title: Text('xaviverges@gmail.com'),
                   leading: Icon(Icons.mail),
-                  iconColor:Colors.teal,
+                  iconColor: Colors.teal,
                 ),
               ),
             ],
